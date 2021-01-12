@@ -14,7 +14,12 @@ Il se trouve que Cisco a créé un outil qui couvre l'ensemble des cas cités, q
 
 Ainsi, pour débuter cette année 2021, je veux vous parler de trex, générateur de trafic développé par Cisco et donner un exemple de sa mise en oeuvre. En effet, l'outil vise des fonctionnalités très étendues et son utilisation n'est pas évidente.
 
+# Notre lab
 
-== Installation ==
+Nous partons d'une capture d'une session HTTP au format pcap. Elle a été réalisée par l'outil tcpdump pendant le téléchargement d'un fichier de taille réduite.
+Ici, nous cherchons à rejouer le trafic capturé en boucle et en changeant les adresses source et destination pour les adpater à notre lab.
+
+Le 
+
 
 
